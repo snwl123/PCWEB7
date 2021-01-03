@@ -17,8 +17,6 @@
             @endif
         </div>
 
-        {{ $profile }}
-
         <div id="profile-info">
 
             <h3 id = "username">{{ $user->name }}</h3>
