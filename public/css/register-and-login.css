@@ -1,0 +1,87 @@
+body
+{
+    background-image: url("/assets/index/index-bg.jpg");
+    background-size: cover;
+  }
+
+#form-container
+{
+    display: flex;
+    align-items: center;
+    height: 94vh;
+    opacity: 0.9;
+}
+
+#form
+{
+    vertical-align: center;
+    margin: auto;
+    text-align: left;
+    width: 35vw;
+    background-color: white;
+    padding: 30px 30px;
+}
+
+#form-header
+{
+    padding-bottom: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.form-fields
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-label
+{
+    padding: 15px;
+    font-size: 10px;
+    font-weight: 600;
+    width: 20vw;
+    text-transform: uppercase;
+}
+
+.form-input
+{
+    width: 20vw;
+    height: 3vh;
+}
+
+.error-alert
+{
+    font-size: 10px;
+}
+
+#form-submit
+{
+   margin-top: 25px;
+   font-size: 10px;
+   font-weight: 700;
+   text-transform: uppercase;
+   padding: 5px 20px;
+   border: none;
+}
+
+.form-remember-check
+{
+   margin-top: 35px;
+}
+
+#remember-me,
+#forgot-password
+{
+   font-size: 10px;
+   font-weight: 700;
+   text-transform: uppercase;
+}
+
+#forgot-password
+{
+   margin-left: 20px;
+   text-decoration: none;
+   color: blue;
+}

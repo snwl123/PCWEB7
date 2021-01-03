@@ -1,0 +1,43 @@
+#create-profile
+{
+    width: 94vw;
+    margin: 50px auto;
+}
+
+.form-group
+{
+    margin: 20px 0;
+}
+
+.label
+{
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+#btn
+{
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-top: 5px 10px;
+}
+
+#btn-text
+{
+    font-weight: 600;
+    padding: 5px 20px;
+    border: none;
+}
+
+#btn-text:hover
+{
+    background-color: #dddddd;
+    cursor: pointer;
+}
+
+#btn-text:focus
+{ 
+    outline: none;
+ }

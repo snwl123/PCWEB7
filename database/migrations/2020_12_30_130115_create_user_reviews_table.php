@@ -14,13 +14,15 @@ class CreateUserReviewsTable extends Migration
     public function up()
     {
         Schema::create('user_reviews', function (Blueprint $table) {
-            $table->foreignId('user_id');
-            $table->string('track_id', 100);
+            $table->unsignedBigInteger('user_id');
+            $table->unsignedBigInteger('resource_id');
+            $table->bigIncrements('review_id');
             $table->tinyInteger('rating');
             $table->text('review_title')->nullable($value = true);
             $table->text('review')->nullable($value = true);
             $table->time('created_at');
-            $table->foreign('track_id')->references('track_id')->on('tracks');
+            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade')->onUpdate('cascade');
+            $table->foreign('resource_id')->references('resource_id')->on('resources')->onUpdate('cascade');
         });
     }
 

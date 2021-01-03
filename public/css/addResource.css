@@ -1,0 +1,22 @@
+#add-resource
+{
+    width: 94vw;
+    margin: 25px auto;
+}
+
+.form-group
+{
+    margin-bottom: 20px;
+}
+
+.label
+{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+#btn
+{
+    margin-top: 50px;
+}

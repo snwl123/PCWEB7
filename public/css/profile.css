@@ -1,0 +1,154 @@
+#profile-container
+{
+    width: 94vw;
+    margin: auto;
+}
+
+.profile-img-circle,
+#profile-info
+{
+    border-radius: 50%;
+    margin-top: 25px;
+}
+
+#username
+{
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#post-count
+{
+    font-size: 15px;
+}
+
+#profile-description 
+{
+    margin: 25px 0;
+}
+
+#profile-description a
+{
+    text-decoration: none;
+    color: darkred;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+#edit-profile
+{
+    margin: 20px 0px;
+    color: #111111;
+    font-size: 15px;
+}
+
+#edit-profile-02 a
+{
+    color: #800000;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+#review-history
+{
+    margin: 50px 0;
+}
+
+#review-history,
+#review-history-container
+{
+    width: 100%;
+}
+
+.review-instance
+{
+    display: grid;
+    grid-template-columns: 7.5% 15% 5% 7.5% 60% 5%;
+}
+
+
+.review,
+.review-header
+{
+    text-align: left;
+    border-bottom: solid 0.2px #aaaaaa;
+    padding: 2px 0px;
+    font-size: 12px;
+}
+
+.review-he
+{
+    font-weight: 600;
+}
+
+.review-link
+{
+    text-decoration: none;
+    color: #111111;
+}
+
+#all-titles
+{
+    display: grid;
+    grid-template-columns: 18vw 18vw 18vw 18vw 18vw;
+    justify-content: space-between;
+}
+
+.title-info
+{
+    margin-top: 10px;
+    padding: 0 10px 10px 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.title-link
+{
+    text-decoration: none;
+    color: #111111;
+}
+
+.title-img
+{
+    width: 18vw;
+}
+
+.title
+{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.author,
+.resource-type
+{
+    font-size: 10px;
+    display: block;
+    color: #777777;
+}
+
+.resource-type
+{
+    margin-top: 10px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.btn-delete
+{
+    outline: none;
+    border: none;
+    background-color: white;
+}
+
+.delete-icon
+{
+    width: 30px;
+}
+
+.delete-icon:hover
+{
+    cursor: pointer;
+    opacity: 50%;
+}

@@ -1,0 +1,57 @@
+#titles
+{
+    width: 96vw;
+    margin: 25px auto;
+}
+
+#category-header
+{
+    font-size: 15px;
+}
+
+#all-titles
+{
+    display: grid;
+    grid-template-columns: 18vw 18vw 18vw 18vw 18vw;
+    justify-content: space-between;
+}
+
+.title-info
+{
+    margin-top: 10px;
+    padding: 0 10px 10px 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.title-link
+{
+    text-decoration: none;
+    color: #111111;
+}
+
+.title-img
+{
+    width: 18vw;
+}
+
+.title
+{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.author,
+.resource-type
+{
+    font-size: 10px;
+    display: block;
+    color: #777777;
+}
+
+.resource-type
+{
+    margin-top: 10px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
